@@ -1,0 +1,26 @@
+.pagination {
+  display: flex;
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+  margin-top: 2rem; /* Add spacing from the content above */
+  gap: 1rem; /* Add space between page numbers */
+}
+
+.pagination span {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--secondary-color);
+  color: var(--heading-color);
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.active__page {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
