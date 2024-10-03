@@ -57,7 +57,7 @@ const Login = () => {
                       onChange={handleChange}
                     />
                   </FormGroup>
-                  <Button className="btn secondary__btn auth__btn" type="submit">Login</Button>
+                  <Button className="auth__btn" type="submit">Login</Button>
 
                 </Form>
                 <p>
